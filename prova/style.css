@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    text-align: justify;
+}
+
+.div1 {
+    background-color: #0077b6;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.div1 h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.div1 nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.div1 nav ul li {
+    display: flex;
+}
+
+.div1 nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.div1 nav ul li a:hover {
+    color: #0077b6;
+    background-color: rgb(255, 102, 0);
+    border-radius: 20px; 
+}
+
+.div2 {
+    margin: 20px auto;
+    padding: 15px;
+    width: 800px;
+    text-align: center;
+}
+
+.div2 h2 {
+    margin-bottom: 15px;
+}
+
+.div2 span {
+    display: block;
+    margin-top: 10px;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div3 video {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+.div4 h2{
+    text-align: center;
+}
+& .cards {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    & .card1 {
+        padding: 10px;
+        margin: 20px;
+        width: 20%;
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    & .card1 img {
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    & .card2 {
+        padding: 10px;
+        margin: 20px;
+        width: 20%;
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    & .card2 img {
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+
+
+    & .card3 {
+        padding: 10px;
+        margin: 20px;
+        width: 20%;
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    & .card3 img {
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    & .card4 {
+        padding: 10px;
+        margin: 20px;
+        width: 20%;
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    & .card4 img {
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+
+
+    & .card5 {
+        padding: 10px;
+        margin: 20px;
+        width: 20%;
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+        font-size: 12px ;
+    }
+
+    & .card5 img {
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+
+
+    & .card6 {
+        padding: 10px;
+        margin: 20px;
+        width: 20%;
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    & .card6 img {
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+
+
+    & .card7 {
+        padding: 10px;
+        margin: 20px;
+        width: 20%;
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    & .card7 img {
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    & .card8 {
+        padding: 10px;
+        margin: 20px;
+        width: 20%;
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+        font-size:12px ;
+    }
+
+    & .card8 img {
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
+#curio{
+    text-align: center;
+}
+
+
+.div5 {
+    display: flex;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    padding-left: 200px;
+
+    & .texto1 {
+        padding: 10px;
+        margin: 20px;
+        width: 20%;
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+    }
+
+    & .texto2 {
+        padding: 10px;
+        margin: 20px;
+        width: 20%;
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+    }
+
+    & .texto3 {
+        padding: 10px;
+        margin: 20px;
+        width: 20%;
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+    }
+}
+
+#Comentário{
+    width: 600px;
+    height: 200px;
+}
+
+.div6{
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-left:450px;
+
+.div6 h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.div6 p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.formulario-comentario label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-comentario label .comentario{
+    padding-left: 90px;
+}
+
+.formulario-comentario textarea, input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-left: 0px;
+}
+
+.linha-formulario {
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.linha-formulario input {
+    flex: 1;
+}
+
+.formulario-comentario button {
+    background-color: #00c4cc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 40%;
+    margin-left: 150px;
+}
+
+.formulario-comentario button:hover {
+    background-color: rgb(255, 102, 0);
+}
+
+}
